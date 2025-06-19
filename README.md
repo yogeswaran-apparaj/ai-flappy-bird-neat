@@ -1,23 +1,90 @@
-[![Run on Repl.it](https://repl.it/badge/github/techwithtim/NEAT-Flappy-Bird)](https://repl.it/github/techwithtim/NEAT-Flappy-Bird)
-# NEAT-Flappy-Bird
-An AI that plays flappy bird! Using the NEAT python module.
+# 🧠 AI Flappy Bird using NEAT
 
-# Instructions
-Simply run *flappy_bird.py* and watch an AI start training itself to play the game of flappy bird!
+This is a mini-project where an AI learns to play the Flappy Bird game using the NEAT algorithm (NeuroEvolution of Augmenting Topologies). It uses Python, Pygame, and the neat-python library to train birds to play the game automatically.
 
-# Video Tutorial
+---
 
-You can view on the details of this project here: https://www.youtube.com/watch?v=OGHA-elMrxI
+## 📌 Project Overview
 
-# 💻 Launch Your Software Development Career Today!  
+- 🎮 Recreated the Flappy Bird game using `pygame`
+- 🧬 Trained a population of birds using the NEAT algorithm
+- 🧠 Neural networks evolve over generations to improve performance
+- ✅ Includes a pre-trained model (`best.pickle`) to watch the AI play
+- 📈 Visualizes the neural network using `visualize.py`
 
-🎓 **No degree? No problem!** My program equips you with everything you need to break into tech and land an entry-level software development role.  
+---
 
-🚀 **Why Join?**  
-- 💼 **$70k+ starting salary potential**  
-- 🕐 **Self-paced:** Complete on your own time  
-- 🤑 **Affordable:** Low risk compared to expensive bootcamps or degrees
-- 🎯 **45,000+ job openings** in the market  
+## 🗂️ Project Structure
 
-👉 **[Start your journey today!](https://techwithtim.net/dev)**  
-No experience needed—just your determination. Future-proof your career and unlock six-figure potential like many of our students have!  
+NEAT-Flappy-Bird/
+
+│
+
+├── flappy_bird.py 👉 Main Python file (game + NEAT training loop)
+
+├── visualize.py 👉 Neural network visualization tool
+
+├── config-feedforward.txt 👉 Configuration for NEAT algorithm
+
+├── best.pickle 👉 Saved trained model
+
+├── imgs/ 👉 Game assets (bird, pipe, background)
+
+├── *.ipynb 👉 Jupyter notebooks for testing
+
+├── requirements.txt 👉 List of required Python libraries
+
+└── README.md 👉 Project documentation
+
+---
+
+## 🛠️ Installation
+
+1. **Clone this repository**:
+   ```bash
+   git clone https://github.com/your-username/ai-flappy-bird-neat.git
+   cd ai-flappy-bird-neat
+Install dependencies:
+
+pip install -r requirements.txt
+▶️ How to Run
+To train and watch the AI play:
+python flappy_bird.py
+The AI will begin training using NEAT. You can adjust NEAT settings in config-feedforward.txt.
+You can also load and run the pretrained model (best.pickle) for instant results.
+
+🧠 Technologies Used
+ 1.Python 3
+
+ 2.Pygame – for game interface
+
+ 3.neat-python – for neuroevolution algorithm
+
+ 4.matplotlib & graphviz – for visualizations
+
+📷 Screenshots 
+
+![image](https://github.com/user-attachments/assets/7bd628e7-28da-48fa-bddb-5f2a798e8652)
+
+
+📚 What I Learned
+How neuroevolution (NEAT) works
+
+How to integrate AI into a game environment
+
+How to visualize and analyze neural networks
+
+Reinforcement-style training for AI agents
+
+🙌 Credits
+neat-python
+
+Game assets inspired by the original Flappy Bird
+
+Concept inspired by Code Bullet & Tech with Tim
+
+👤Author
+Yogeswaran Apparaj
+
+Based on a tutorial by Tech With Tim, with personalized enhancements and cleanup.
+

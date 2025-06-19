@@ -53,7 +53,8 @@ NEAT-Flappy-Bird/
 The AI will begin training using NEAT. You can adjust NEAT settings in config-feedforward.txt.
 You can also load and run the pretrained model (best.pickle) for instant results.
 
-##🧠 Technologies Used
+## 🧠 Technologies Used
+
  1.Python 3
 
  2.Pygame – for game interface
@@ -62,12 +63,12 @@ You can also load and run the pretrained model (best.pickle) for instant results
 
  4.matplotlib & graphviz – for visualizations
 
-##📷 Screenshots 
+## 📷 Screenshots 
 
 ![image](https://github.com/user-attachments/assets/7bd628e7-28da-48fa-bddb-5f2a798e8652)
 
 
-##📚 What I Learned
+## 📚 What I Learned
 How neuroevolution (NEAT) works
 
 How to integrate AI into a game environment
@@ -76,14 +77,14 @@ How to visualize and analyze neural networks
 
 Reinforcement-style training for AI agents
 
-##🙌 Credits
+## 🙌 Credits
 neat-python
 
 Game assets inspired by the original Flappy Bird
 
 Concept inspired by Code Bullet & Tech with Tim
 
-#👤Author
+# 👤Author
 Yogeswaran Apparaj
 
 Based on a tutorial by Tech With Tim, with personalized enhancements and cleanup.
